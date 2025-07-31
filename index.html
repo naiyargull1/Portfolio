@@ -27,76 +27,71 @@
       <p class="lead">a student of Applied Computer Science at the University of Applied Sciences Fulda.</p>
     </div>
   </header>
+<section id="about" class="about-section" aria-label="About Me Carousel">
+  <h2 class="section-title" aria-hidden="true">About Me</h2>
 
-  <section id="about" class="container my-5">
-  <h2 class="mb-4">About Me</h2>
-  <div class="row g-4">
+  <div class="carousel-wrapper">
+    <button class="carousel-btn prev">&lt;</button>
 
-    <div class="col-md-6">
-      <div class="card bg-dark text-white shadow h-100">
-        <div class="card-body">
-          <h5 class="card-title">Early Curiosity</h5>
-          <p class="card-text">My interest in technology began in childhood. My father was always curious about new innovations, and he bought a computer at a time when most people in our area had never even seen one. The first machine I used was an Intel Pentium 3, and from the moment I touched it, I was hooked.</p>
+    <div class="carousel-container">
+      <div class="carousel-track" id="carousel">
+
+        <div class="about-card" style="--accent-color:#41516C;">
+          <h5>Early Curiosity</h5>
+          <p>
+            My interest in technology began in childhood. My father was always curious about new innovations, and he bought a computer at a time when most people in our area had never even seen one. The first machine I used was an Intel Pentium 3, and from the moment I touched it, I was hooked.
+          </p>
         </div>
+
+        <div class="about-card" style="--accent-color:#FBCA3E;">
+          <h5>Learning by Necessity</h5>
+          <p>
+            At first, it was just videos and games. But when something went wrong — and it often did — there was no technician to call. So I learned: reinstalling OSes, installing drivers, cleaning RAM, and fixing hardware. What began as necessity turned into skill — and eventually, passion.
+          </p>
+        </div>
+
+        <div class="about-card" style="--accent-color:#E24A68;">
+          <h5>The Go-To Tech Guy</h5>
+          <p>
+            Over time, I became the go-to “tech guy” for friends and family. Fixing computers wasn’t just something I could do — it was something I genuinely enjoyed.
+          </p>
+        </div>
+
+        <div class="about-card" style="--accent-color:#1B5F8C;">
+          <h5>Discovering Networking</h5>
+          <p>
+            My interest in networking sparked during a class where I learned to build a LAN. Connecting computers and building small-scale networks fascinated me. Since then, I’ve been working toward becoming a Network Architect and Cybersecurity Expert.
+          </p>
+        </div>
+
+        <div class="about-card" style="--accent-color:#4CADAD;">
+          <h5>Tech Detour: Medicine</h5>
+          <p>
+            After 8th grade, I shifted toward biology to pursue medicine. I moved to Germany for Human Medicine at Marburg, but complex medical German and internal doubt made me realize I’d drifted from what I truly loved.
+          </p>
+        </div>
+
+        <div class="about-card" style="--accent-color:#8A4F7D;">
+          <h5>Back to My Roots</h5>
+          <p>
+            In 2022, I made a U-turn. I joined the Pre-College Informatik program at Fulda and came back to tech. Catching up wasn’t easy, but I’ve reignited the curiosity that started with that Pentium 3.
+          </p>
+        </div>
+
+        <div class="about-card" style="--accent-color:#F2A900;">
+          <h5>Now &amp; Beyond</h5>
+          <p>
+            Now, I’m diving deep into Applied Computer Science at the University of Applied Sciences Fulda. I’m exploring AI, cybersecurity, and self-hosting, with a focus on privacy-first tools and offline AI.
+          </p>
+        </div>
+
       </div>
     </div>
 
-    <div class="col-md-6">
-      <div class="card bg-dark text-white shadow h-100">
-        <div class="card-body">
-          <h5 class="card-title">Learning by Necessity</h5>
-          <p class="card-text">At first, it was just videos and games. But when something went wrong — and it often did — there was no technician to call. So I learned: reinstalling OSes, installing drivers, cleaning RAM, and fixing hardware. What began as necessity turned into skill — and eventually, passion.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card bg-dark text-white shadow h-100">
-        <div class="card-body">
-          <h5 class="card-title">The Go-To Tech Guy</h5>
-          <p class="card-text">Over time, I became the go-to “tech guy” for friends and family. Fixing computers wasn’t just something I could do — it was something I genuinely enjoyed.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card bg-dark text-white shadow h-100">
-        <div class="card-body">
-          <h5 class="card-title">Discovering Networking</h5>
-          <p class="card-text">My interest in networking sparked during a class where I learned to build a LAN. Connecting computers and building small-scale networks fascinated me. Since then, I’ve been working toward becoming a Network Architect and Cybersecurity Expert.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card bg-dark text-white shadow h-100">
-        <div class="card-body">
-          <h5 class="card-title">Tech Detour: Medicine</h5>
-          <p class="card-text">After 8th grade, I shifted toward biology to pursue medicine. I moved to Germany for Human Medicine at Marburg, but complex medical German and internal doubt made me realize I’d drifted from what I truly loved.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card bg-dark text-white shadow h-100">
-        <div class="card-body">
-          <h5 class="card-title">Return to Computer Science</h5>
-          <p class="card-text">In 2022, I made a U-turn. I joined the Pre-College Informatik program at Fulda and came back to tech. Catching up wasn’t easy, but I’ve reignited the curiosity that started with that Pentium 3.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12">
-      <div class="card bg-dark text-white shadow h-100">
-        <div class="card-body">
-          <h5 class="card-title">Now & Beyond</h5>
-          <p class="card-text">I love solving meaningful problems, automating repetitive tasks, and designing secure, intelligent systems. I’m on a mission to become the kind of engineer I always wanted to be.</p>
-        </div>
-      </div>
-    </div>
-
+    <button class="carousel-btn next">&gt;</button>
   </div>
 </section>
+
 
 
   <section id="projects" class="container">
